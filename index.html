@@ -14,6 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/img/Fav_icon_.png">
+	
 </head>
 <body>
 	<!---header--->
@@ -36,8 +38,8 @@
 		<div class="home-text">
 			<h4>Hello</h4>
 			<h1>I'M Sajal <br> Ja<span>in</span></h1>
-			<h3>Front-End & Android Developer</h3>
-			<a href="https://drive.google.com/file/d/17HaLeisB08s5bRgIfyCIf-FxJqzwHnP9/view?usp=sharing" class="btn">Download CV</a>
+			<h2>I'm <span class="auto-type"></span></h2> <br>
+			<a href="https://drive.google.com/file/d/1Awi10k6Qknzb8_XQut9OZFXYh5BxjaOy/view?usp=drive_link" class="btn">Download Resume</a>
 		</div>
 	</section>
 
@@ -151,7 +153,14 @@
                     <h3>Reactjs</h3>
                 </div>
             </div>
-            
+	    <div class="skill-box">
+                <div class="skill-title">
+                    <div class="tech_img">
+                        <img class="skill-icon" src="img/Firebase.png" alt="Firebase ">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+            </div>    
         </div>
     </div>
      
@@ -259,6 +268,32 @@
 			</div>
 
 			<div class="row">
+				<img src="img/expense_management.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Web Development</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<a href="https://github.com/Sajal1803/Expense_Management_System.git" title="click for Source Code"><h3>Expense Management</h3></a>
+			</div>
+
+			<div class="row">
+				<img src="img/doc_app.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Web Development</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<a href="https://github.com/Sajal1803/Doctor-Appointment-System.git" title="click for Source Code"><h3>Doctor Appointment System</h3></a>
+			</div>
+
+			<div class="row">
 				<img src="img/todo.jpg">
 				<div class="main-row">
 					<div class="row-text">
@@ -347,6 +382,7 @@
 				<a href="https://www.facebook.com/profile.php?id=100010544734657"><i class='bx bxl-facebook' ></i></a>
 				<a href="https://www.instagram.com/sajal3584/"><i class='bx bxl-instagram' ></i></a>
 				<a href="https://github.com/Sajal1803"><i class='bx bxl-github' ></i></a>
+				<a href="https://leetcode.com/jainsajal188/"><i><iconify-icon icon="simple-icons:leetcode"></iconify-icon></i></a>
 			</div>
 		</div> 
 
@@ -371,7 +407,19 @@
 	<script src="https://unpkg.com/scrollreveal"></script>
 
 	<!---custom js link--->
-<!-- 	<script type="text/javascript" src="js/script.js"></script> -->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+	<!--  For auto typing -->
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+	<script>
+	var typed = new Typed(".auto-type", {
+		strings: ["Software Engineer", "Front-End Developer", "Freelancer"],
+		typeSpeed: 150,
+		backSpeed: 150,
+		loop: true
+	})
+		
+		</script>
 
 </body>
 </html>
